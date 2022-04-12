@@ -1,0 +1,27 @@
+{
+  "name": "letschat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "axios": "^0.26.1",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify": "^2.6.1",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxt/types": "~2.15.0",
+    "@nuxtjs/vuetify": "^1.12.3"
+  }
+}
